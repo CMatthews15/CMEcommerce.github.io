@@ -1,0 +1,105 @@
+
+#page-title{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 3%;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.map-responsive{
+   min-width:250px;
+    margin-top:2%;
+    width:33%;
+}
+.entry{
+    padding:3%;
+    margin:1%;
+    
+    
+}
+.input{
+    width: 90%;
+
+    margin-bottom: 0;
+    
+}
+#contact-form{
+    padding: 1.2%;
+    background-color: rgb(47, 74, 47);
+    margin-top:8px;
+    width:25%;
+    min-width: 236px;
+    
+
+    
+}
+.your-info{
+    font-size: 1.3em;
+    color: white;
+}
+
+#reason{
+    text-align: center;
+    margin-top: 5%;
+    display:flex;
+    justify-content:center;
+    margin-inline: auto;
+}
+.gallery{
+    display: flex;
+    height:32vh;
+    width: 80vw;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-bottom:3% ;
+    
+    
+}
+#formButton{
+    display:flex;
+    justify-content:center;
+    margin-inline: auto;
+}
+
+#gallery1{
+    height:30vh;
+    margin-right:60 %;
+    width:100%;
+    min-width: 180px;
+    max-width: 315px;
+}
+#gallery2{
+    height:30vh;
+    min-height: 100px;
+    margin-right: 8%;
+    width:100%;
+    min-width: 180px;
+    max-width: 315px;
+}
+#gallery3{
+    height:30vh;
+    margin-right: 8%;
+    width:100%;
+    min-width: 180px;
+    max-width: 315px;
+}
+
+@media screen and (max-width: 765px){ 
+    .container{
+    display:flex;
+    flex-direction: column;
+    }
+
+    .gallery{
+        display:flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
